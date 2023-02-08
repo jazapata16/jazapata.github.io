@@ -24,6 +24,7 @@
   }
   a {
     font-weight: 600;
+    text-decoration: none;
   }
   .seccion {
     width: 50%;
@@ -47,9 +48,7 @@
 section h2{
   color: #0BCC7B;
 }
-a{
-  text-decoration: none;
-}
+
 nav ul{
   list-style-type: none;
 }

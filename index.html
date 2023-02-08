@@ -95,39 +95,31 @@
     </section>
 
     <aside id="secciongaleria" class="seccion">
-      <img src="public/images/reading.jpg" alt="Reading" width="30%">
+      <img src="public/images/reading.jpg" alt="Reading" width="60%"><br>
       <img
         src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg"
-        alt="Foto de colaboración" width="30%">
+        alt="Foto de colaboración" width="60%">
 
     </aside>
 
     <section id="seccioncontactenos" class="seccion">
       
-      <h2>Contáctame</h2>
-      <footer>
-        <address>
-          Email: <a href="mailto:jazapata@espol.edu.ec">CORREO</a><br>
-          Tel: <a href="tel:+593983750553">TELEFONO</a><br><br>
-          DIRECCIÓN<br>
-          CIUDAD<br>
-          PAÍS
-        </address>
-      </footer>
-      <h3>Sus datos</h3>
+      <h2 id="contactame">Contáctame</h2>
+      
+      <h3 id="susdatos">Sus datos</h3>
 
-      <form>
+      <form id="texto">
         <label for="nombre">Nombres:</label><input type="text" name="nombre"
-          id="nombre">
+          id="nombre"><br>
         <label for="nombre">Apellidos:</label><input type="text"
           name="apellidos"
           id="apellidos"><br>
 
         <label for="edad">Seleccione su rango de edad</label><br>
         <input type="radio" id="opcion1" name="edad" value="menor25"><label
-          for="opcion1"> menor a 25 años</label>
+          for="opcion1"> menor a 25 años</label><br>
         <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
-          for="opcion2"> entre 26 y 30 años</label>
+          for="opcion2"> entre 26 y 30 años</label><br>
         <input type="radio" id="opcion3" name="edad" value="mayor31"><label
           for="opcion3"> mayor a 31 años</label><br><br>
 
@@ -143,9 +135,9 @@
       </form>
 
 
-      <h3>Ubicación</h3>
-      <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15948.111266768696!2d-79.9571968!3d-2.1430272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f63a84bb9b%3A0xcc923bf175c1350b!2sOficina%20de%20Admisiones%20ESPOL!5e0!3m2!1sen!2sec!4v1673706967426!5m2!1sen!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <h3 id="ubi" >Ubicación</h3>
+      <div id="mapa" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15948.111266768696!2d-79.9571968!3d-2.1430272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f63a84bb9b%3A0xcc923bf175c1350b!2sOficina%20de%20Admisiones%20ESPOL!5e0!3m2!1sen!2sec!4v1673706967426!5m2!1sen!2sec" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
 
@@ -178,7 +170,15 @@
       </ul>
 
     </section>
-    
+    <footer>
+      <address>
+        Email: <a href="mailto:jazapata@espol.edu.ec">CORREO</a><br>
+        Tel: <a href="tel:+593983750553">TELEFONO</a><br><br>
+        DIRECCIÓN: Recreo 4ta Etapa <br>
+        CIUDAD: Duran - Guayas<br>
+        PAÍS: Ecuador
+      </address>
+    </footer>
 
   </body>
 </html>

@@ -11,6 +11,7 @@
   h2 {
     font-family: 'Open Sans', sans-serif;
   }
+
   p {
     text-align: center;
   }
@@ -56,4 +57,33 @@ nav ul{
   font-size: 1.4rem;
   margin-top: 6%;
   color: #373B41;
+}
+#seccioncontactenos {
+  display:grid;
+  grid-template-areas: "area1 area2 area2"
+                       "area3 area4 area4"
+                       "area5 area6 area6"
+                       "area5 area6 area6"
+                       "area5 area6 area6"
+                       "area5 area6 area6";
+}
+#contactame{
+  grid-area: area1;
+}
+#susdatos{
+  grid-area: area3;
+}
+#texto {
+  grid-area: area5;
+}
+#ubi{
+  grid-area: area4;
+}
+#mapa{
+  grid-area: area6;
+}
+.caja {
+  padding: 5%;
+  font-size: 2rem;
+  text-align: center;
 }

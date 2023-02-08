@@ -17,13 +17,13 @@
     <!-- Nav: Inicio -->
     <nav>
       <ul>
-        <li><a href="#secciondatos">Datos Personales</a></li>
-        <li><a href="#seccionredes">Redes Sociales</a></li>
-        <li><a href="#seccionhabilidades">Habilidades</a></li>
-        <li><a href="#secciongaleria">Galería</a></li>
-        <li><a href="#seccioncontactenos">Contáctenos</a></li>
-        <li><a href="#seccioneducacion">Eduación</a></li>
-        <li><a href="#seccionexperiencia">Experiencia Laboral</a></li>
+        <li id="nav_uno"><a href="#secciondatos">Datos Personales</a></li>
+        <li id="nav_dos"><a href="#seccionredes">Redes Sociales</a></li>
+        <li id="nav_tres"><a href="#seccionhabilidades">Habilidades</a></li>
+        <li id="nav_cuatro"><a href="#secciongaleria">Galería</a></li>
+        <li id="nav_cinco"><a href="#seccioncontactenos">Contáctenos</a></li>
+        <li id="nav_seis"><a href="#seccioneducacion">Eduación</a></li>
+        <li id="nav_siete"><a href="#seccionexperiencia">Experiencia Laboral</a></li>
       </ul>
     </nav>
     <!-- Nav: Fin -->
@@ -51,7 +51,7 @@
     <section id="seccionhabilidades" class="seccion">
       <h2>Habilidades Profesionales</h2>
       <ul>
-        <li>HTML & CSS</li>
+        <li>Html & CSS</li>
         <li>JavaScript</li>
         <li>ReactJS</li>
         <li>Django</li>
@@ -110,27 +110,34 @@
 
       <form id="texto">
         <label for="nombre">Nombres:</label><input type="text" name="nombre"
-          id="nombre"><br>
+          id="nombre">
         <label for="nombre">Apellidos:</label><input type="text"
           name="apellidos"
-          id="apellidos"><br>
+          id="apellidos">
 
-        <label for="edad">Seleccione su rango de edad</label><br>
-        <input type="radio" id="opcion1" name="edad" value="menor25"><label
-          for="opcion1"> menor a 25 años</label><br>
-        <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
-          for="opcion2"> entre 26 y 30 años</label><br>
-        <input type="radio" id="opcion3" name="edad" value="mayor31"><label
-          for="opcion3"> mayor a 31 años</label><br><br>
+        <label for="edad">Seleccione su rango de edad</label>
 
-        <label for="tiposervicio">Seleccione el tipo de servicio a consultar</label><br>
-        <input type="checkbox" name="frontend" id="frontend"><label
-          for="frontend">Frontend Dev</label><br>
-        <input type="checkbox" name="backend" id="backend"><label for="backend">Backend
-          Dev</label><br>
-        <input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
-          de software</label><br>
-        <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label><br>
+        <div><input type="radio" id="opcion1" name="edad" value="menor25"><label
+          for="opcion1"> menor a 25 años</label></div>
+
+        <div><input type="radio" id="opcion2" name="edad" value="entre26y20"><label
+          for="opcion2"> entre 26 y 30 años</label></div>
+
+        <div><input type="radio" id="opcion3" name="edad" value="mayor31"><label
+          for="opcion3"> mayor a 31 años</label><br></div>
+
+        <label for="tiposervicio">Seleccione el tipo de servicio a consultar</label>
+
+        <div><input type="checkbox" name="frontend" id="frontend"><label
+          for="frontend">Frontend Dev</label></div>
+
+        <div><input type="checkbox" name="backend" id="backend"><label for="backend">Backend
+          Dev</label></div>
+
+        <div><input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
+          de software</label></div>
+
+        <div><input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label></div>
         <button type="submit">Enviar</button>
       </form>
 
@@ -152,7 +159,7 @@
         Direccion: <a href="https://goo.gl/maps/gYY18Wq2PsrEWr9Q8">Dirección</a>
       </address>
 
-      <h3>Universidad</h3>
+      <h3>Educacion Superior</h3>
       <h4>Escuela Superior Politecnica del litoral</h4>
       <address>
         Pagina Web: <a href="https://www.espol.edu.ec/">Pagina Web</a><br>
@@ -172,11 +179,11 @@
     </section>
     <footer>
       <address>
-        Email: <a href="mailto:jazapata@espol.edu.ec">CORREO</a><br>
-        Tel: <a href="tel:+593983750553">TELEFONO</a><br><br>
-        DIRECCIÓN: Recreo 4ta Etapa <br>
-        CIUDAD: Duran - Guayas<br>
-        PAÍS: Ecuador
+        <div> Email: <a href="mailto:jazapata@espol.edu.ec">CORREO</a></div>
+        <div> Tel: <a href="tel:+593983750553">TELEFONO</a></div>
+        <div> DIRECCIÓN: Recreo 4ta Etapa</div>
+        <div> CIUDAD: Duran - Guayas</div>
+        <div> PAÍS: Ecuador</div>
       </address>
     </footer>
 

@@ -49,10 +49,23 @@
 section h2{
   color: #0BCC7B;
 }
+footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+form{
+  display: flex;
 
+  flex-direction: column;
+}
 nav ul{
   list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
+
 #secciondatos p{
   font-size: 1.4rem;
   margin-top: 6%;

@@ -1,0 +1,77 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* El elemento header tendrá una imagen de fondo */
+
+header { 
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    
+}
+.seccion {
+    width: 60%;
+    margin: 0 auto; 
+    padding: 1%;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+}
+
+#seccionheader{
+    display:grid;
+    grid-template-areas:"area1 area1"
+                        "area1 area1"
+                        "area2 area5"
+                        "area4 area3"
+}
+#titulo{
+    grid-area: area2;
+  }
+#bold{
+    font-weight: bold;
+}
+#intro{
+    grid-area: area4;
+  }
+#secciongaleria{
+    grid-area: area3;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+h1{
+    font-size: 300%;
+}
+#titulo2{
+    font-size: x-large;
+    font-weight: normal;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#webdevelop{
+    display: flex;
+    flex-direction: column;
+}
+#secciongaleria2{
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
